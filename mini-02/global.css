@@ -1,0 +1,62 @@
+/* box model fix */
+/* details: www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.article {
+  width: 250px;
+}
+
+.headline {
+  font-style: italic;
+}
+
+.headline h1 {
+  margin: 0px;
+}
+
+.byline p {
+  margin-top: 3px;
+  margin-bottom: 0px;
+  color: silver;
+}
+
+.text p {
+  margin: 3px 0px;
+}
+
+.comments-section {
+}
+
+.comments-box-column {
+  float: left;
+}
+
+.comments-box {
+  background-color: blue;
+  width: 10px;
+  height: 7px;
+}
+
+.comments-white-space-top {
+  background-color: white;
+  height: 2px;
+}
+
+.comments-white-space-bottom {
+  background-color: white;
+  height: 15px;
+}
+
+.comments-number p {
+  font-family: sans-serif;
+  font-size: 12px;
+  color: blue;
+  margin: 0px 15px;
+}
