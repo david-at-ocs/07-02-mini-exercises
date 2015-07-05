@@ -1,0 +1,65 @@
+/* box model fix */
+/* details: www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.box-container {
+  position: relative;
+}
+
+.box-container a:link {
+  color: black;
+}
+
+.box-container a:hover {
+  position: relative;
+}
+
+.box {
+  float: left;
+  border: 1px solid black;
+  width: 27px;
+  height: 27px;
+  margin-right: 5px;
+}
+
+.box a {
+  text-decoration: none;
+}
+
+.box a:hover {
+  color: #DCDCDC;
+}
+
+.box p {
+ position: relative; 
+}
+
+.box:hover {
+  border: 1px solid #DCDCDC;
+}
+
+.arrow {
+  position: absolute;
+  top: -12px;
+  left: 5px;
+}
+
+.arrow:hover {
+  color: #DCDCDC;
+}
+
+.reverse-arrow {
+  -webkit-transform:rotateY(180deg);
+  -moz-transform:rotateY(180deg);
+  -o-transform:rotateY(180deg);
+  -ms-transform:rotateY(180deg);
+  unicode-bidi:bidi-override;
+  direction:rtl;
+}
