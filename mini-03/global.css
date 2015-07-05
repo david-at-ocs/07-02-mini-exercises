@@ -1,0 +1,52 @@
+/* box model fix */
+/* details: www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.article {
+  width: 500px;
+}
+
+.headline h1 {
+  margin: 0px;
+  font-size: 18px;
+}
+
+.image img {
+  float: right;
+  width: 125px;
+}
+
+.by {
+  float: left;
+}
+
+.by p {
+  color: silver;
+  font-size: 13px;
+  margin: 0px;
+}
+
+.byline-spacer {
+  float: left;
+  width: 10px;
+  height: 7px;
+}
+
+.time p {
+  color: red;
+  font-size: 13px;
+  margin: 0px;
+  padding-left: 3px;
+}
+
+.text p {
+  margin: 3px 0px;
+  font-size: 17px;
+}
