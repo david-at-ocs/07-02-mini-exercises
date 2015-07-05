@@ -8,3 +8,37 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
+.article {
+  width: 250px;
+}
+
+.headline {
+  font-style: italic;
+}
+
+.headline h1 {
+  margin: 0px;
+}
+
+.byline p {
+  margin-top: 3px;
+  margin-bottom: 0px;
+  color: silver;
+}
+
+.text p {
+  margin: 3px 0px;
+}
+
+.comments-section {
+  border: 1px black solid;
+}
+
+.comments-box {
+  float: left;
+  background-color: blue;
+  width: 10px;
+  height: 10px;
+  border: 1px black solid;
+}
