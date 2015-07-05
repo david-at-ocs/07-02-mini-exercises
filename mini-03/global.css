@@ -9,44 +9,23 @@ html {
   box-sizing: inherit;
 }
 
-.article {
-  width: 500px;
-}
-
-.headline h1 {
-  margin: 0px;
+.column-container h1 {
   font-size: 18px;
 }
 
-.image img {
-  float: right;
-  width: 125px;
+.column-container p {
+  color: gray;
 }
 
-.by {
+.columns {
   float: left;
+  width: 220px;
 }
 
-.by p {
-  color: silver;
-  font-size: 13px;
-  margin: 0px;
-}
-
-.byline-spacer {
+.vertical-line {
   float: left;
-  width: 10px;
-  height: 7px;
-}
-
-.time p {
-  color: red;
-  font-size: 13px;
-  margin: 0px;
-  padding-left: 3px;
-}
-
-.text p {
-  margin: 3px 0px;
-  font-size: 17px;
+  height: 360px;
+  width: 1px;
+  margin: 0px 10px;
+  background-color: #DCDCDC;
 }
