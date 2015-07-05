@@ -10,53 +10,42 @@ html {
 }
 
 .article {
-  width: 250px;
-}
-
-.headline {
-  font-style: italic;
+  width: 500px;
 }
 
 .headline h1 {
   margin: 0px;
+  font-size: 18px;
 }
 
-.byline p {
-  margin-top: 3px;
-  margin-bottom: 0px;
-  color: silver;
+.image img {
+  float: right;
+  width: 125px;
 }
 
-.text p {
-  margin: 3px 0px;
-}
-
-.comments-section {
-}
-
-.comments-box-column {
+.by {
   float: left;
 }
 
-.comments-box {
-  background-color: blue;
+.by p {
+  color: silver;
+  font-size: 13px;
+  margin: 0px;
+}
+
+.byline-spacer {
+  float: left;
   width: 10px;
   height: 7px;
 }
 
-.comments-white-space-top {
-  background-color: white;
-  height: 2px;
+.time p {
+  color: red;
+  font-size: 13px;
+  margin: 0px;
+  padding-left: 3px;
 }
 
-.comments-white-space-bottom {
-  background-color: white;
-  height: 15px;
-}
-
-.comments-number p {
-  font-family: sans-serif;
-  font-size: 12px;
-  color: blue;
-  margin: 0px 15px;
+.text p {
+  margin: 3px 0px;
 }
