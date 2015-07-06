@@ -1,0 +1,47 @@
+/* box model fix */
+/* details: www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.form-container {
+  position: relative;
+  background-color: #0000CD;
+  height: 80px;
+  width: 500px;
+  color: white;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.form-container p {
+  margin: 0px;
+  margin-bottom: 5px;
+}
+
+.log-in-button {
+  float: right;
+}
+
+.column {
+  float: left;
+  color: white;
+  font-family: sans-serif;
+  margin: 10px;
+}
+
+.last-row {
+  color: gray;
+}
+
+.button-placement {
+  color: white;
+  background-color: blue;
+  position: absolute;
+  top: 30px;
+}
