@@ -1,0 +1,60 @@
+/* box model fix */
+/* details: www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.box {
+  font-family: sans-serif;
+  width: 550px;
+  color: gray;
+}
+
+.box p {
+  margin: 0px;
+  font-size: 14px;
+}
+
+.box h1 {
+  font-size: 14px;
+  color: black;
+  margin-top: 0px;
+}
+
+.arrows {
+  float: left;
+  width: 5%;
+}
+
+.main {
+  width: 400px;
+  float: left;
+}
+
+.main img {
+  position: relative;
+  left: -4px;
+  top: 5px;
+}
+
+.name {
+  float: left;
+}
+
+.retweet {
+  margin-left: 5px;
+  float: left;
+}
+
+.tweet {
+  float: left;
+}
+
+.date {
+  float: right;
+}
