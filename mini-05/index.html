@@ -8,14 +8,18 @@
   <body>
     <div class="form-container">
       <form>
-        <div class="row">
-          <p class="title">Email or Phone</p>
-          <p class="title">Password</p>
+        <div class="column">
+          <p>Email or Phone</p>
+          <p><input type="text" size=30>
+          <p class="last-row"><input type="checkbox">Keep me logged in</p>
         </div>
-        <div class="row">
-          <input type="text"  class="title" name="email">
-          <input type="text"  class="title" name="password">
-          <input type="submit"  class="title" name="Log In">
+        <div class="column">
+          <p>Password</p></p>
+          <p><input type="text" name="email" size=30></p>
+          <p class="last-row">Forgot Your Password<p>
+        </div>
+        <div class="column">
+          <input type="submit" name="Log In" class="button-placement">
         </div>
       </form>
     </div>

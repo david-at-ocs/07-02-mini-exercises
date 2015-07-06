@@ -11,25 +11,37 @@ html {
 
 .form-container {
   position: relative;
-  background-color: blue;
-  padding: 5px;
+  background-color: #0000CD;
+  height: 80px;
+  width: 500px;
+  color: white;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.form-container p {
+  margin: 0px;
+  margin-bottom: 5px;
 }
 
 .log-in-button {
   float: right;
 }
 
-.row {
+.column {
+  float: left;
   color: white;
   font-family: sans-serif;
-  font-size: 16px;
-  height: 30px;
+  margin: 10px;
 }
 
-.row p {
-  margin: 0px;
+.last-row {
+  color: gray;
 }
 
-.title {
-  float: left;
+.button-placement {
+  color: white;
+  background-color: blue;
+  position: absolute;
+  top: 30px;
 }
