@@ -10,51 +10,68 @@ html {
 }
 
 .box {
+  font-size: 18px;
+  margin: 0px 0px 5px;
+  color: black;
   font-family: sans-serif;
-  width: 550px;
-  color: gray;
 }
 
 .box p {
   margin: 0px;
-  font-size: 14px;
 }
 
 .box h1 {
-  font-size: 14px;
-  color: black;
-  margin-top: 0px;
+  font-size: 18px;
+  margin: 0px;
 }
 
-.arrows {
+.red-rectangle {
+  position: relative;
   float: left;
-  width: 5%;
+  width: 5px;
+  height: 25px;
+  background-color: red;
+  margin-right: 5px;
+}
+
+.arrow {
+  position: relative;
+  float: left;
+  width: 29px;
+  left: 7px;
+}
+
+.inbox {
+  position: relative;
+  left: 30px;
+  width: 200px;
+}
+
+.inbox p {
+  color: red;
 }
 
 .main {
-  width: 400px;
-  float: left;
+  width:300px;
 }
 
-.main img {
+.sent {
   position: relative;
-  left: -4px;
-  top: 5px;
+  margin-left: 15px;
 }
 
-.name {
-  float: left;
+.sent-sub {
+  position: relative;
+  padding-left: 50px;
+  margin-left: 10px;
 }
 
-.retweet {
-  margin-left: 5px;
-  float: left;
+.highlighted {
+  background-color: silver;
 }
 
-.tweet {
-  float: left;
-}
-
-.date {
-  float: right;
+.drafts {
+  position: relative;
+  padding-left: 30px;
+  margin-left: 10px;
 }
