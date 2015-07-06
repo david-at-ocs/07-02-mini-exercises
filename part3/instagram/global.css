@@ -1,0 +1,77 @@
+/* box model fix */
+/* details: www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.box {
+  font-size: 18px;
+  margin: 0px 0px 5px;
+  color: black;
+  font-family: sans-serif;
+}
+
+.box p {
+  margin: 0px;
+}
+
+.box h1 {
+  font-size: 18px;
+  margin: 0px;
+}
+
+.red-rectangle {
+  position: relative;
+  float: left;
+  width: 5px;
+  height: 25px;
+  background-color: red;
+  margin-right: 5px;
+}
+
+.arrow {
+  position: relative;
+  float: left;
+  width: 29px;
+  left: 7px;
+}
+
+.inbox {
+  position: relative;
+  left: 30px;
+  width: 200px;
+}
+
+.inbox p {
+  color: red;
+}
+
+.main {
+  width:300px;
+}
+
+.sent {
+  position: relative;
+  margin-left: 15px;
+}
+
+.sent-sub {
+  position: relative;
+  padding-left: 50px;
+  margin-left: 10px;
+}
+
+.highlighted {
+  background-color: silver;
+}
+
+.drafts {
+  position: relative;
+  padding-left: 30px;
+  margin-left: 10px;
+}
