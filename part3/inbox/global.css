@@ -1,0 +1,113 @@
+/* box model fix */
+/* details: www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.box {
+  font-size: 15px;
+  color: black;
+  font-family: sans-serif;
+  border: 1px solid silver;
+  width: 641px;
+}
+
+.box p {
+  margin: 0px;
+}
+
+.box h1 {
+  font-size: 18px;
+  margin: 0px;
+}
+
+.header {
+  height: 60px;
+  padding: 12px;
+}
+
+.profile-pic {
+  position: relative;
+  float: left;
+  top: 1px;
+}
+
+.username {
+  position: relative;
+  float: left;
+  top: 9px;
+  margin-left: 10px;
+}
+
+.time {
+  position: relative;
+  float: right;
+  top: 9px;
+  margin-right: 10px;
+  color: gray;
+}
+
+.footer {
+  height: 150px;
+}
+
+.footer p {
+  margin-bottom: 5px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: blue;
+}
+
+.likes-row {
+  position: relative;
+  float: left;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+.gray-line {
+  margin: 15px 0px;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.25;
+  background-color: gray;
+  height: 1px;
+  width: 93%;
+}
+
+.heart {
+  position: relative;
+  padding-left: 17px;
+  float: left;
+  top: 1px;
+}
+
+.comment {
+  position: relative;
+  float: left;
+  top: 7px;
+  padding-left: 13px;
+  opacity: 0.2;
+}
+
+.dots {
+  opacity: 0.8;
+  position: relative;
+  float: right;
+  top: 7px;
+  margin-right: 22px;
+  color: gray;
+}
+
+.dots p {
+  font-size: 10px;
+}
